@@ -68,7 +68,7 @@ DATABASES = {
         'USER': 'app_user',
         'PASSWORD': '1234',
         'HOST': 'mysql-todo',  # Container name — both must be on same network (todo-net)
-        'PORT': '3306',
+        'PORT': '',  # Empty = default MySQL port (3306)
     }
 }
 

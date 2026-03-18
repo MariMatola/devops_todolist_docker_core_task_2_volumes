@@ -1,10 +1,2 @@
-GRANT ALL PRIVILEGES ON app_db.* TO 'app_user'@'%';
-
--- Use the 'app' database
-USE app_db;
-
--- Create a table to store counter data
-CREATE TABLE counter (
-   id INT AUTO_INCREMENT PRIMARY KEY,
-   value INT
-);
+-- Schema is managed by Django migrations (python manage.py migrate).
+-- MYSQL_USER/MYSQL_DATABASE in Dockerfile.mysql set up app_user and app_db.
